@@ -7,6 +7,8 @@
 // fs.renameSync('bio.txt',"biooo.txt")
 // fs.unlinkSync("biooo.txt")
 
+const nodemon = require("nodemon");
+
 
 // lec 7
 // const fs  = require("fs");
@@ -77,3 +79,98 @@
 // console.log(res);
 
 // console.log(chalk.blue("helll"));
+
+
+
+
+// l-14
+// nodemon
+// install
+
+
+
+// l-15
+// module wrapper functio
+
+// (function(exports, require, modele,__filename, __dirname){
+//     console.log("sourabh jangid");
+// })();
+
+// l-16-17
+// node js web  server 
+// const http = require("http")
+// const server = http.createServer((req,res)=>{
+//     // console.log(req.url);
+//     if(req.url="/"){
+//         res.end("home page ");
+//     }
+//     else if(req.url="/about"){
+//         res.end("about");
+//     }
+//     else
+//     res.end("error");
+//     // res.end("hello")
+// })
+// server.listen(3000,"127.0.0.1",()=>{
+//     console.log("listen");
+// })
+
+
+// l-18
+// json in Nodejs
+// const fs = require("fs")
+// const bioData  = {
+//     name:"sourrbhh",
+//     age: 34,
+//     channel: "sourabh",
+// };
+// console.log(bioData);
+// obj to json 
+// const json1 = JSON.stringify(bioData);
+// console.log(json1);
+// // json to obj
+// const objData = JSON.parse(json1)
+// console.log(objData);
+// const jsondata = JSON.stringify(bioData);
+// fs.writeFile('json1.json',jsondata,(err)=>{
+//     // console.log(done);
+// })
+// fs.readFile("json1.json","utf-8",(err,data)=>{
+//    console.log(data);
+//    const orgdata = JSON.parse(jsondata);
+//    console.log(orgdata.name);
+// })
+
+
+
+
+
+// l-19
+// Json 
+// const http = require("http")
+// const fs = require('fs')
+// require("http")
+// const server = http.createServer((req,res)=>{
+  
+//         res.end("home page ");
+//     })
+// fs.readFile('package.json','utf-8',(err,data)=>
+// {
+//     const newdata = JSON.parse(data);
+//   console.log(newdata.name);
+//     // console.log(data);
+
+// })
+//  server.listen(3000,"127.0.0.1",()=>{
+//        console.log("listen");
+//  })
+
+
+
+
+
+
+// l-20
+// event in nodej
+
+
