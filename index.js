@@ -172,5 +172,21 @@ const nodemon = require("nodemon");
 
 // l-20
 // event in nodej
+// const EventEmitter = require("events")
+// const event  = new EventEmitter();
+// event.on('sayMyname',()=>{
+//     console.log("souarj");
+// })
+// event.on('sayMyname',()=>{
+//     console.log("souarj");
+// })
+// event.on('sayMyname',()=>{
+//     console.log("souarj");
+// })
+// event.on('sayMyname',()=>{
+//     console.log("souarj");
+// })
+// event.emit('sayMyname')
 
-
+// l-21
+// streams in nodejs
